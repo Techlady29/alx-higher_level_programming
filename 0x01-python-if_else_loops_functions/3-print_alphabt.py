@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-for letter in range(97, 123):
-    if chr(letter) is not 'q' and chr(letter) is not 'e':
-        print("{}".format(chr(letter)), end="")
+for alp in range(97, 123):
+    if alp == 101:
+        continue
+    elif alp == 113:
+        continue
+    print("{:c}".format(alp), end="")
