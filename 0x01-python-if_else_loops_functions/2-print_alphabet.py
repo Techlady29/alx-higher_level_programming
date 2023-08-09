@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for alp in range(97, 123):
-    print("{}".format(alp), end="")
+    print("{}".format(chr(letter)), end="")
