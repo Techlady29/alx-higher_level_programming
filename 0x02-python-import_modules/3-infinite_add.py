@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-from sys import argv
+ import sys
 
-add = 0
-for a in argv[1:]:
-    add += int(a)
-print("{:d}".format(add))
+    total = 0
+    for a in range(len(sys.argv) - 1):
+        total += int(sys.argv[a + 1])
+    print("{}".format(total))
