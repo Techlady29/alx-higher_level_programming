@@ -1,5 +1,3 @@
 #!/usr/bin/python3
 
-if __name__ == "__main__":
-    from variable_load_5 import a
-    print(a)
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
