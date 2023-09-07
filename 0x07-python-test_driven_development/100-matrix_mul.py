@@ -38,7 +38,7 @@ def matrix_mul(m_a, m_b):
 	inverted_b = []
 	for t in range(len(m_b[0])):
 		new_row = []
-        	for b in range(len(m_b)):
+		for b in range(len(m_b)):
 			new_row.append(m_b[t][b])
 		inverted_b.append(new_row)
 
