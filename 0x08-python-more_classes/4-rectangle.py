@@ -48,10 +48,11 @@ class Rectangle:
 
 	def __str__(self):
 		""" this return the rectangle with the character"""
-		if self.__width is 0 or self.__height is 0:
+		if self.__width is 0 or self.__height is 0:	
 			return ""
-		return ("\n".join(["".join(["#" for i in range(self.__width)])
-		for j in range(self.__height)]))
-	def __rep r__(self):
+		return ("\n".join(["".join(["#" for a in range(self.__width)])
+		for c in range(self.__height)]))
+
+	def __repr__(self):
 		""" this return a string representation of the rectangle"""
 		return "Rectangle({}, {})".format(self.__width, self.__height)
