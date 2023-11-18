@@ -1,5 +1,5 @@
 #!/usr/bin/node
-export.nbOccurences = function (list, searchElement) {
+exports.nbOccurences = function (list, searchElement) {
 	let count = 0;
 	list.map(
 	(x) => {
