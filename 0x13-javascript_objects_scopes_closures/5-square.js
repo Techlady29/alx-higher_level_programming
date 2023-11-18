@@ -1,6 +1,6 @@
 #!/usr/bin/node
-module.export = class square extends require('./4-rectangle') {
+module.exports = class Square extends require('./4-rectangle.js') {
 	constructor (size) {
-		supe(size, size);
+		super(size, size);
 	}
 };
