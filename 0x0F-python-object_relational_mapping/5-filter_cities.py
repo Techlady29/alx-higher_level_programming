@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """This lists all states from the databases hbtn_0e_0_usa"""
-import MySqldb
+import MySQLdb
 import sys
 
 
